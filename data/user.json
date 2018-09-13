@@ -1,0 +1,157 @@
+{"user":{"userAccount":"15890158362", "userPassword":"123456"},
+  "herad":{"Authorization": "Bearer pSDqQHSScNfypVTnF5SQ7i0ICRWD7Htey8eW7nk8OdYmbn6UhxRuXmTr7n9YKL53WducGHDYp7vVTsuIJIlE2nb59UMT9uNtd7qTGCf7XEA9502TSncgi-UVPMDUeTEyK0g6lkA7NXO_sUVnksYtH1Fc_XPUoivHyIdjYHyV_UuTPsXj_j_MmjHONQus3OoqtSehO3eOU889MeUrOkxDxj2HgwjNOdkYWgm0I6r5V261SkgS4t9YbO_yPppqiRF40NQNQ06wJl3SQ0RL9OU8PQ"},
+  "ppo":{"operationType":"NewErmCode"},
+   "payload":{
+          "CaseInfo": {
+                "EMRCode":"201808100012",
+                "PatientName":"TP069",
+                "PatientSex":"1",
+                "PatientBirthday":"20180808",
+                "PatientTel":"15890158362",
+                "PatientAddress":"123456",
+                "MainSuit":"123",
+                "AllergyHistory":"123",
+                "MedicalHistory":"123",
+                "TreatmentPlan":"123",
+                "DoctorTel":"15890158362",
+                "HospitalId":"2f40074e-e347-4abb-8037-e6db009afded"
+              },
+          "ModelInfo":{
+              "UploadType":"3",
+              "FilePath":"http://192.168.31.152:5210/STL/201808090085/Data1/1618222d-c65c-47d2-a62f-6510f9de3f96.xlsx"
+                    },
+          "FaceImage":[
+              {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"0"
+
+              },
+                  {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"1"
+                      },
+                {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"2"
+                      },
+                {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"3"
+                      }
+                     ],
+            "ToothCrownImage":[
+                       {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"0"
+                      },
+                   {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"1"
+                      },
+                    {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"2"
+                      },
+                          {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"3"
+                      },
+                          {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"4"
+                      }
+                     ],
+            "ToothRootImage":[
+
+            {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"0"
+                      },
+             {
+               "filePath":"http://image.clearbos.cn/simple_emr/201808090085/Data1/FrontalRepose_small_780.jpg",
+               "orderNo":"1"
+                      }
+                ]
+        },
+  "kong":{},
+  "new1":{
+  "operationType":"AddErpUser"	,
+    "RoleId" :	"128",
+"useraccount":	"15890158367",
+"username":"nihao"	,
+"userpassword":"12356"	},
+   "new2":{
+    "BusinessId":"3"	,
+"CompanyName":"93",
+"Leader":"er"	,
+"operationType":"AddCompany",
+"Remark":"8888",
+"UserTel":"5555"
+  },
+  "new3":{
+    "operationType":"BusinessList"
+  },
+  "new4":{
+  "operationType":"GetUserInfoList"	,
+  "PageIndex":"1",
+  "PageSize":"10"
+  },
+  "new5":{
+    "operationType":"GetAllCompanyInfo",
+"PageIndex":"z",
+"PageSize"	:"1000"
+  },
+  "new6":{
+    "operationType":	"AddStandardForBenefit",
+"price"	:"2",
+"typdId":	"1",
+"typeCondition"	:"3"
+  },
+  "new7":{
+    "operationType":	"QualityInspection",
+"OrderID":	"48631",
+"OpertionId"	:"15890158362",
+"EmrCode"	:"201808280023",
+"ProcessID":	"1",
+"PhaseNumber":"1"
+  },
+  "new8":{
+
+      "EmrCode":"201807090049",
+       "ERPStatus"	:"CFlow-1-13",
+     "operationType": "UpdateEmrErpStatus",
+     "OpertionId":"15890158362",
+        "PhaseNumber":"1",
+       "ProcessID":"3"
+  },
+  "Sign":{
+    "operationType":	"ERPLogin",
+"UserName"	:"15890158362",
+"UserPassWord":"123456"
+  },
+    "Sign1":{
+    "operationType":	"ERPLogin",
+"UserName"	:"1589015836",
+"UserPassWord":"123456"
+  },
+    "Sign2":{
+    "operationType":	"ERPLogin",
+"UserName"	:"15890158362",
+"UserPassWord":"12345"
+  },
+    "Sign3":{
+    "operationType":	"ERPLogin",
+"UserName"	:"",
+"UserPassWord":"123456"
+  },
+    "Sign4":{
+    "operationType":	"ERPLogin",
+"UserName"	:"15890158362",
+"UserPassWord":""
+  },
+    "Sign5":{
+    "operationType":	"ERPLogin",
+"UserName"	:"",
+"UserPassWord":""
+    }
+}

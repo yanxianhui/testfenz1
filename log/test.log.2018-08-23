@@ -1,0 +1,18 @@
+2018-08-23 13:00:02,352 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/auth/login/checklogin', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/auth/login/checklogin”匹配的 HTTP 资源。'})
+2018-08-23 13:00:02,375 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/case/GetEMRCode', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/case/GetEMRCode”匹配的 HTTP 资源。'})
+2018-08-23 13:00:02,392 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/hospital/GetHospitalByDoctorTel?doctorTel=15890158362', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/hospital/GetHospitalByDoctorTel?doctorTel=15890158362”匹配的 HTTP 资源。'})
+2018-08-23 13:00:02,407 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362”匹配的 HTTP 资源。'})
+2018-08-23 13:00:02,424 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362”匹配的 HTTP 资源。'})
+2018-08-23 13:00:02,439 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/case/GetEMRCode', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/case/GetEMRCode”匹配的 HTTP 资源。'})
+2018-08-23 13:00:02,503 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn/SimpleEMRServices.ashx', {'code': '200', 'message': '请求成功！', 'data': '201808230004'})
+2018-08-23 13:00:02,521 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/case/newcase', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/case/newcase”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,647 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/auth/login/checklogin', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/auth/login/checklogin”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,666 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/case/GetEMRCode', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/case/GetEMRCode”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,683 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/hospital/GetHospitalByDoctorTel?doctorTel=15890158362', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/hospital/GetHospitalByDoctorTel?doctorTel=15890158362”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,699 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,714 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/auth/menu/getmenu?userAccount=15890158362”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,729 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/case/GetEMRCode', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/case/GetEMRCode”匹配的 HTTP 资源。'})
+2018-08-23 13:05:15,783 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn/SimpleEMRServices.ashx', {'code': '200', 'message': '请求成功！', 'data': '201808230005'})
+2018-08-23 13:05:15,799 - 接口测试 - INFO - (' 失败 -    http://www.clearbos.cn:82/api/cases/case/newcase', {'Message': '未找到与请求 URI“http://www.clearbos.cn:82/api/cases/case/newcase”匹配的 HTTP 资源。'})
+2018-08-23 15:58:36,237 - 接口测试 - INFO -  通过 -    http://www.clearbos.cn/SimpleEMRServices.ashx
+2018-08-23 15:59:32,443 - 接口测试 - INFO -  通过 -    http://www.clearbos.cn/SimpleEMRServices.ashx
