@@ -56,11 +56,11 @@ class TestJieKou(unittest.TestCase):
         gong = succee + file
         print("一共测试",gong,"条接口","成功",succee,"条","失败",file,"条")
         num = 1
-        # for add in codeid:
-        #     num += 1
-        #     value=str(add)
-        #     print(value)
-        #     ExcelReader(self.excel).write_value(num,7,value)
+        for add in codeid:
+            num += 1
+            value=str(add)
+            print(value)
+            ExcelReader(self.excel).write_value(num,8,value)
 if __name__ == '__main__':
     #report = REPORT_PATH + '\\report.html'
     #with open(report, 'wb+') as f:

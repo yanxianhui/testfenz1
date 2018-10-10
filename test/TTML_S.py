@@ -9,14 +9,14 @@ if __name__ == '__main__':
     #print(report)
     with open(report, 'wb+') as f:
         runner = HTMLTestRunner(f, verbosity=2, title='ERP测试报告', description='修改html报告')
-        runner.run(TestJieKou('test_search'))
+        runner.run(TestJieKou('test_Interface'))
 
-    e = Email(title='ERP测试报告',
-              message='这是今天的测试报告，请查收！',
-              receiver='825651673@qq.com',
-              server='smtp.126.com',
-              sender='luckyanhui@126.com',
-              password='yan986165220',
-              path=report
-              )
-    e.send()
+    # e = Email(title='ERP测试报告',
+    #           message='这是今天的测试报告，请查收！',
+    #           receiver='825651673@qq.com',
+    #           server='smtp.126.com',
+    #           sender='luckyanhui@126.com',
+    #           password='yan986165220',
+    #           path=report
+    #           )
+    # e.send()

@@ -7,7 +7,7 @@ from utils.HTMLTestRunner import HTMLTestRunner
 from utils.log import logger
 class TestJieKou(unittest.TestCase):
     excel = DATA_PATH + '/Sign.xlsx'
-    def test_search(self):
+    def test_Interface(self):
         self.opjson = OperetionJson()
         datas = ExcelReader(self.excel).data
         succee = 0
@@ -33,7 +33,7 @@ class TestJieKou(unittest.TestCase):
                 #print(code)
                 #codeid.append(code)    #写入数据用的
                 try:
-                     if code['code']=='200':
+                     if code['message']==d['预期结果']:
                         succee+=1
                         #print("测试通过")
                         links=' 通过 -    '+url,code
@@ -56,11 +56,11 @@ class TestJieKou(unittest.TestCase):
         # for add in codeid:
         #     num += 1
         #     value=str(add)
-        #     ExcelReader(self.excel).write_value(num,6,value)
+        #     ExcelReader(self.excel).write_value(num,8,value)
 
 if __name__ == '__main__':
     #report = REPORT_PATH + '\\report.html'
     #with open(report, 'wb+') as f:
         #runner = HTMLTestRunner(f, verbosity=2, title='从0搭建测试框架 灰蓝', description='修改html报告')
         #runner.run(TestJieKou('test_search'))
-    TestJieKou('test_search')
+    TestJieKou('test_Interface')

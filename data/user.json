@@ -153,5 +153,9 @@
     "operationType":	"ERPLogin",
 "UserName"	:"",
 "UserPassWord":""
-    }
+    },
+  "mes":{
+    "operationType":	"SelectCounts",
+"userAccount":"15890158362"
+  }
 }
