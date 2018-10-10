@@ -1,4 +1,4 @@
-#coding:utf-8
+# -*- coding: utf-8 -*-
 import json
 class OperetionJson:
 	def __init__(self,file_path=None):
@@ -10,14 +10,23 @@ class OperetionJson:
 
 	#读取json文件
 	def read_data(self):
-		with open(self.file_path) as fp:
+		with open(self.file_path,encoding="utf-8") as fp:
 			data = json.load(fp)
 			return data
 
+
 	#根据关键字获取数据
-	def get_data(self,id):
+	# def get_data(self,id=None):
+	# 	#print (type(self.data))
+	# 	return self.data[id]
+	def get_data(self,id=''):
+		res=None
 		#print (type(self.data))
-		return self.data[id]
+		if id=='':
+			res=None
+		else:
+			res=self.data[id]
+		return res
 
 	#写json
 	def write_data(self,data):
@@ -27,6 +36,6 @@ class OperetionJson:
 
 if __name__ == '__main__':
 	opjson = OperetionJson()
-	print (opjson.get_data('user'))
+	print (opjson.get_data('SHOUJU'))
     #print(OperetionJson.get_data('user'))
 

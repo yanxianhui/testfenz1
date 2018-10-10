@@ -18,6 +18,7 @@ class Interface_test:
         else:
             res=  self.send_post(url,data,headers,json)
         return res
+
 if __name__ == "__main__":
      #url = 'http://www.clearbos.cn:82/api/auth/login/checklogin'
     #data = {

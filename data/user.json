@@ -157,5 +157,13 @@
   "mes":{
     "operationType":	"SelectCounts",
 "userAccount":"15890158362"
+  },
+  "SHOUJU":{
+    "EMRCode":	"201809300003",
+    "enterprise":"上海",
+    "invoiceType":"收据",
+    "operationType":"SubmitInvoiceApply",
+     "remark":	"发票",
+    "userTel":"15890158362"
   }
 }

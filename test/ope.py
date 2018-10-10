@@ -61,6 +61,7 @@ class TestJieKou(unittest.TestCase):
             value=str(add)
             print(value)
             ExcelReader(self.excel).write_value(num,8,value)
+
 if __name__ == '__main__':
     #report = REPORT_PATH + '\\report.html'
     #with open(report, 'wb+') as f:
